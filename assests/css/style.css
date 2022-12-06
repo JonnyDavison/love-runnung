@@ -107,7 +107,7 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
+    
 }
 
 #center-about {
@@ -220,4 +220,34 @@ footer {
 
 #photos > img {
     width: 100%;
+}
+
+/* media quries*/
+/* for large to medium screens/tablets from 1200px down*/
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #welcome {
+        padding: 30px;
+        margin: 0;
+    }
+    #left-about , #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    
+    hr {
+       display: none;
+    }
+
 }
